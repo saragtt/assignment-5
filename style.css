@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  height: 200px;
+}
+.search-box {
+  text-align: center;
+  background-color: silver;
+}
+.button {
+  text-align: center;
+  margin:
+    5px,
+    color silver;
+  background-color: silver;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+p {
+  margin-bottom: 5px;
+}
+.column-1 {
+  background-color: aquamarine;
+  flex: 4;
+  text-align: center;
+  display: block;
+  padding-top: 15px;
+}
+.column-2 {
+  background-color: aqua;
+  flex: 2;
+  text-align: center;
+  display: block;
+  padding-top: 15px;
+}
+.column-3 {
+  background-color: rgb(64, 119, 138);
+  flex: 4;
+  text-align: center;
+  display: block;
+  padding-top: 15px;
+}
+.columns {
+  display: flex;
+  gap: 5px;
+}
+.column-1 a,
+.column-2 a,
+.column-3 a {
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+  display: block;
+}
